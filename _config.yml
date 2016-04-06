@@ -12,8 +12,8 @@ description: > # Specialisti nella lavorazione della pietra lavica dell'Etna
  La Basalti Barbaro è azienda  leader nel settore della lavorazione della
  pietra lavica. Operiamo nel comune di Misterbianco(CT) ai piedi del vulcano
  Etna, il più grande vulcano attiv d'Europa.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://aeisolution.github.io/www-basaltibarbarosrl-it/" # the base hostname & protocol for your site
+baseurl: "/www-basaltibarbarosrl-it" # the subpath of your site, e.g. /blog
+url: "http://aeisolution.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

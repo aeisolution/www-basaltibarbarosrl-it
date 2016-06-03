@@ -1,0 +1,29 @@
+.thumbnail img {
+  width: 350px;
+  height: 210px;
+}
+
+a.product-item, a.product-item:hover {
+  text-decoration: none;
+}
+
+.product-item:hover .thumbnail {
+  border-color: #337ab7;
+  /*background-color: #337ab7;*/
+}
+
+.product-item:hover h3 {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+img.logo {
+  height: 40px;
+  margin-top: -5px;
+  padding: 0;
+  vertical-align: top;
+}
+
+.navbar-brand > img {
+    display: inline;
+}

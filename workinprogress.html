@@ -1,0 +1,93 @@
+﻿<!doctype html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Basamenti Barbaro Srl">
+    <meta name="author" content="Andrea Maddalena">
+
+    <title>Basalti Barbaro Srl</title>
+
+    <!-- Font Style -->
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+
+    <!-- Libs Style -->
+    <link rel="stylesheet" type="text/css" href="css/supersized.css" />
+
+    <!-- Less Style -->
+    <link rel="stylesheet" type="text/css" href="css/wip.css" />
+</head>
+<body>
+
+
+    <!-- Header -->
+    <section id="header" class="menu clearfix">
+        <div class="menu-inner clearfix">
+            <div class="clearfix logo">
+                <a href="#">
+                    <img class="brand" src="/images/logo/logo_basaltibarbaro_300dpi.png" title="Basalti Barbaro Srl" />
+                </a>
+            </div>
+            <ul class="clearfix navi">
+                <li><i class="fa fa-phone"></i><p>Telefono <span>+39 348 7128934</span></p></li>
+                <li><i class="fa fa-fax"></i><p>Fax <span>+39 095 89919584</span></p></li>
+                <li class="mail"><i class="fa fa-envelope"></i><p>Email <span><a href="mailto:antonio@basaltibarbarosrl.it">antonio@basaltibarbarosrl.it</a> </span></p></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- Page Content -->
+    <div class="clearfix">
+        <div class="center">
+            <h1 class="primary">Basalti Barbaro Srl</h1>
+            <h4>sito web in aggiornamento</h4>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <section id="footer" class="menu clearfix">
+        <div class="menu-inner clearfix">
+            <ul class="clearfix navi">
+                <li><i class="fa fa-tag"></i><p>Basalti Barbaro Srl <span>P. IVA 05125920875</span><span>&nbsp;</span></p></li>
+                <li><i class="fa fa-map-marker"></i><p>Sede Legale <span>Via Grotta San Giovanni 23 </span><span>95123 - Catania (CT)</span></p></li>
+                <li><i class="fa fa-map-marker"></i><p>Sede Operativa <span>Via Campo Sportivo 57</span><span>95045 - Misterbianco (CT)</span></p></li>
+                <li class="mail clearfix"><i class="fa fa-envelope"></i><p>Pec <span><a href="mailto:basaltibarbaro@pec.impresecatania.it">basaltibarbaro@pec.impresecatania.it</a> </span><span>&nbsp;</span></p></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- libs Javascripts -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <!-- oing scripts -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <script src="js/supersized.3.2.7.min.js"></script>
+    <script>
+        jQuery(function ($) {
+
+            $.supersized({
+
+                // Functionality
+                slide_interval: 5000,		// Length between transitions
+                transition: 1, 			    // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+                transition_speed: 700,		// Speed of transition
+
+                // Components
+                slide_links: 'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+                slides: [			// Slideshow Images
+                                                    { image: '/images/disco_rotante.jpg' },
+                                                    { image: '/images/piazza_universita.jpg' },
+                                                    { image: '/images/blocchi_informi_bn.jpg' },
+                                                    { image: '/images/piazza_duomo.jpg' }
+                ]
+
+            });
+        });
+    </script>
+</body>
+</html>

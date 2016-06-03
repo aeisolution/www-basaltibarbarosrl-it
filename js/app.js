@@ -32,29 +32,29 @@ i&&d.unbind(i,j),h.reject("Transition cancelled")},h.promise},h=document.createE
 
         $routeProvider
             .when('/home', {
-                templateUrl: '/views/home.html'
+                templateUrl: '/www-basaltibarbarosrl-it/views/home.html'
             }).when('/chisiamo', {
-                templateUrl: '/views/chisiamo.html'
+                templateUrl: '/www-basaltibarbarosrl-it/views/chisiamo.html'
             }).when('/pietra-lavica', {
-                templateUrl: '/views/pietralavica.html'
+                templateUrl: '/www-basaltibarbarosrl-it/views/pietralavica.html'
             }).when('/prodotti', {
-                templateUrl: '/views/prodotti.html'
+                templateUrl: '/www-basaltibarbarosrl-it/views/prodotti.html'
             }).when('/prodotti/pavimentazioni', {
-                templateUrl: '/views/pavimentazioni.html'
+                templateUrl: '/www-basaltibarbarosrl-it/views/pavimentazioni.html'
             }).when('/prodotti/semilavorati', {
-                templateUrl: '/views/semilavorati.html'
+                templateUrl: '/www-basaltibarbarosrl-it/views/semilavorati.html'
             }).when('/prodotti/rivestimenti', {
-                templateUrl: '/views/rivestimenti.html'
+                templateUrl: '/www-basaltibarbarosrl-it/views/rivestimenti.html'
             }).when('/prodotti/cordonature', {
-                templateUrl: '/views/cordonature.html'
+                templateUrl: '/www-basaltibarbarosrl-it/views/cordonature.html'
             }).when('/prodotti/copertine', {
-                templateUrl: '/views/copertine.html'
+                templateUrl: '/www-basaltibarbarosrl-it/views/copertine.html'
             }).when('/prodotti/arredo-urbano', {
-                templateUrl: '/views/arredo-urbano.html'
+                templateUrl: '/www-basaltibarbarosrl-it/views/arredo-urbano.html'
             }).when('/lavori', {
-                templateUrl: '/views/lavori.html'
+                templateUrl: '/www-basaltibarbarosrl-it/views/lavori.html'
             }).when('/contatti', {
-                templateUrl: '/views/contatti.html'
+                templateUrl: '/www-basaltibarbarosrl-it/views/contatti.html'
                 // default action *****************************************
             }).otherwise({
                 redirectTo: '/home'
